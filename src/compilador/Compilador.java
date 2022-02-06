@@ -7,7 +7,7 @@ public class Compilador {
     public static void main(String[] args) {
               
         archivo a = new archivo();
-        String s1 = a.leerTxt("/home/Adrian/Documentos/ADRIAN/archivo");
+        String s1 = a.leerTxt("/home/daniela/Descargas/ola");
         info=s1.split(" ");
         for (int i = 0; i < info.length; i++) {
            System.out.println(info[i]); 
